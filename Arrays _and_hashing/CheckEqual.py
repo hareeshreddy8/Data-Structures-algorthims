@@ -13,4 +13,12 @@ class Solution:
         
         #check whether the dicts are same 
         return freq_a == freq_b
+    
+#main section 
+a = list(map(int,input("enter elemnts of array a :").split()))
+b = list(map(int,input("enter elements of array b :").split()))
+#function calling
+obj = Solution()
+result = obj.checkEqual(a,b)
+print("result:",result)
         
